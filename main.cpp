@@ -21,7 +21,7 @@ int main() {
     weather.getWeatherData(latLahaina, lonLahaina);
     presenter.displayWeather(weather.getWeatherInfo(), "Lahaina, Hawaii");
 
-
+/*
     // NRW, Solingen - coordinates
     double latSolingen = 51.163165631447875;
     double lonSolingen = 6.9970362837355164;
@@ -35,6 +35,6 @@ int main() {
 
      weather.getWeatherData(latSunnyvale, lonSunnyvale);
      presenter.displayWeather(weather.getWeatherInfo(), "Sunnyvale, California");
-
+ */
     return 0;
 }
